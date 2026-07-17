@@ -1,0 +1,33 @@
+{
+  "name": "webfunction-to-openapi",
+  "version": "1.0.0",
+  "description": "Convert a Web Function (webfunction.org) package definition into an OpenAPI 3.1 document.",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "bin": {
+    "wfn-to-openapi": "./bin/wfn-to-openapi.js"
+  },
+  "files": [
+    "index.js",
+    "bin/",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [
+    "webfunction",
+    "openapi",
+    "swagger",
+    "api",
+    "spec",
+    "converter"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
